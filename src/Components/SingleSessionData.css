@@ -1,0 +1,17 @@
+.session-item{
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    transition: border 0.2s ease;
+}
+
+.session-item:hover, .session-item.selected {
+    background-color: #6E40FF;
+    color: #ffffff;
+}
+
+.session-item-list{
+    display: flex;
+    text-align: left;
+    margin: 10px 20px;
+}
